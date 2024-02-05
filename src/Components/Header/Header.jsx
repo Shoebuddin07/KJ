@@ -2,7 +2,12 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header>Header</header>
+    <header>
+      <marquee 
+      direction='down'
+      scrollamount='3'
+      >Kubra Jewellers - create unforgettable moments</marquee>
+    </header>
   )
 }
 
