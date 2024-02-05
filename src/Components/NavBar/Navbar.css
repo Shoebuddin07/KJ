@@ -1,0 +1,120 @@
+/* .active {
+    background-color: rgb(209, 209, 223);
+} */
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5961ffaa;
+    padding: 3px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    /* border-radius: 12px 5px 14px 1px; */
+    border-radius: 50%;
+    background-color: rgb(14, 14, 26);
+    transition: 0.7s;
+    box-shadow: 0px 0px 5px 3px rgb(248, 213, 16);
+}
+
+.logo p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(234, 234, 234);
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.logo:hover {
+    /* background: rgb(2, 29, 78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38); */
+
+    /* background: #654ea3; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #eaafc8, #654ea3); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* box-shadow: none; */
+
+    /* background-color: #fff; */
+    box-shadow: 0px 0px 7px 3px #e6e7f7aa;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    /* margin: 0; */
+}
+
+ul li a {
+    border-radius: 7px;
+    color: black;
+}
+
+ul .submenu {
+    position: absolute;
+    display: inline-block;
+    margin: 30px 0px 0px -50px;
+    box-shadow: 0 0px 15px 1px #242424;
+    border-radius: 3px;
+    opacity: 0;
+    z-index: -999;
+    transition: ease-in-out 0.5s;
+    background: #000;
+}
+
+ul .submenu li {
+    margin-left: -30px;
+    padding: 15px;
+}
+
+ul li:hover .submenu {
+    z-index: 999;
+    opacity: 1;
+}
+
+ul li:hover a {
+    color: #fff;
+}
+
+.submenu li a:hover {
+    color: #e09303;
+}
+
+
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    gap: 13px;
+    height: 14px;
+    background-color: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.Search input {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    max-width: 200px;
+}
+
+.Search input::placeholder {
+    color: #fff;
+}

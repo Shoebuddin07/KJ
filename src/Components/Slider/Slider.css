@@ -1,0 +1,12 @@
+.slider-container {
+    padding: 10px 150px;
+    width: 50%;
+    background: #000;
+}
+
+.card-image {
+    align-self: center;
+    width: 70%;
+    height: 30vh;
+    object-fit: contain; 
+}
