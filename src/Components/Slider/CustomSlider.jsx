@@ -7,23 +7,25 @@ import './Slider.css'
 const CustomSlider = () => {
 
   var settings = {
-    dots: true,
     infinite: true,
-    speed: 300,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    // pauseonhover:true  
   };
 
   return (
     <div>
       <div className="slider-container">
-        <Slider {...settings}>
+        <Slider {...settings} className="slider" >
           {
             data.map((d) => (
               <div key={d.id} >
-                <h3> {d.name}</h3>
-                <div>
-                  <img className="card-image" src={d.image} ></img>
+                <h3 className="image-title" > {d.name}</h3>
+                <div className="image-container" >
+                  <img className="custom-image" src={d.image} ></img>
                 </div>
               </div>
             ))}

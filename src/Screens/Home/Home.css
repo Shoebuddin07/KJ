@@ -1,0 +1,16 @@
+.Main-container {
+  width: 100%;
+}
+.slider-container {
+  background: #012b4d;
+}
+
+.slider-component {
+  width: 95%;
+  margin: auto;
+}
+.Cards-container {
+  display: inline-block;
+  background: #68839b;
+  width: 100%;
+}

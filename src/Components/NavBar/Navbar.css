@@ -1,11 +1,9 @@
-/* .active {
-    background-color: rgb(209, 209, 223);
-} */
 
 .Navbar {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   background: hsla(330, 36%, 53%, 1);
   background: linear-gradient(
     90deg,
