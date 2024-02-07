@@ -1,0 +1,5 @@
+.ExploreCard {
+    background: linear-gradient(to right, rgb(27, 4, 43), rgb(2, 105, 105));
+    /* border: 1px solid rgb(148, 5, 161); */
+    border-radius: 7px;
+}

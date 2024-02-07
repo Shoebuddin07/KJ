@@ -1,16 +1,21 @@
 .Main-container {
   width: 100%;
 }
+
 .slider-container {
-  background: #012b4d;
+  /* background: #012b4d; */
+  background: linear-gradient(to right, rgb(27, 4, 43), rgb(2, 105, 105));
+
 }
 
 .slider-component {
   width: 95%;
   margin: auto;
 }
+
 .Cards-container {
-  display: inline-block;
-  background: #68839b;
+  /* display: inline-block; */
+  display: flex;
+  background: #a6bbce;
   width: 100%;
 }

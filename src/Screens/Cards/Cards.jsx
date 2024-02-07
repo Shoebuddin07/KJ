@@ -1,4 +1,5 @@
-import React from "react";
+import CollectionCard from "../../Components/Cards/CollectionsCard/CollectionsCard";
+import ExploreCard from "../../Components/Cards/ExploreCard/ExploreCard";
 import GiftCard from "../../Components/Cards/GiftCard/GiftCard";
 import OfferCard from "../../Components/Cards/OfferCard/OfferCard";
 import videobg from "../../assets/bgvideo.webm";
@@ -9,7 +10,7 @@ const Cards = () => {
       style={{
         display: "flex",
         flexWrap: "wrap",
-        width: "98%",
+        width: "100%",
         gap: "13px",
         marginTop: "15px",
       }}
@@ -43,17 +44,35 @@ const Cards = () => {
         style={{
           width: "100%",
           display: "flex",
-         
+
         }}
         className="video-container"
       >
         <video
-          style={{ margin:'auto' ,borderRadius: "50px", }}
+          style={{ margin: 'auto', borderRadius: "50px", }}
           src={videobg}
           autoPlay
           loop
           muted
         ></video>
+      </div>
+      <div
+        style={{ width: '100%', display: 'flex', flexWrap: 'wrap', gap: '5px' }}
+      >
+        <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
+      </div>
+
+      <div
+        style={{ width: '100%', display: 'flex', flexWrap: 'wrap', gap: '5px' }}
+      >
+        <CollectionCard />
+        <CollectionCard />
+        <CollectionCard />
       </div>
     </div>
   );

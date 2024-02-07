@@ -8,8 +8,7 @@ import Necklaces from "../Necklace/Necklaces";
 import More from "../More/More";
 import "./Home.css";
 import Cards from "../Cards/Cards";
-import GiftCard from "../../Components/Cards/GiftCard/GiftCard";
-import OfferCard from "../../Components/Cards/OfferCard/OfferCard";
+
 
 const Home = () => {
   return (
