@@ -1,0 +1,46 @@
+.Custom-btn {
+    background: black;
+    color: white;
+    font-weight: 400;
+  }
+
+.Gold-Exchange {
+    color: #fff;
+    width: 99%;
+    margin: 7px;
+    padding: 17px;
+    border-radius: 7px;
+  }
+
+.About-us{
+    display: block; 
+    width: 99%;
+    margin: 7px;
+    padding: 17px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(18, 4, 36);
+    color: #fff;
+}
+
+.SignUp{
+    display: inline; 
+    width: 99%;
+    margin: 7px;
+    padding: 17px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(18, 4, 36);
+    color: #fff;
+}
+
+.SignUp .Custom-input{
+    font-size: 1.7rem;
+    border: none;
+    border-bottom: 3px solid #747bff;
+    outline: none;
+    border-radius: 3px;
+    background-color: transparent;
+    color: azure;
+    margin-right: 7px;
+}

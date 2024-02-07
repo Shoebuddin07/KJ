@@ -1,4 +1,5 @@
 .CollectionCard {
-    background: linear-gradient(to top, rgb(17, 192, 154), rgb(131, 4, 131));
+    background: linear-gradient(to top, rgb(20, 78, 66), rgb(54, 3, 54));
     color: aliceblue;
+    border-radius: 7px;
 }

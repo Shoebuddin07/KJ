@@ -1,22 +1,23 @@
-import './CollectionsCard.css'
+import "./CollectionsCard.css";
 
-const CollectionCard = () => {
-    return (
-        <div
-            className="CollectionCard"
-            style={{
-                width: '33%',
-                height: '400px',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-            }}
-        >
+const CollectionCard = ({ width, image }) => {
+  return (
+    <div
+      className="CollectionCard"
+      style={{
+        width: width ? width : "33%",
+        height: "400px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundImage: image && `url(${image})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      {!image && <h3>Collections Card</h3>}
+    </div>
+  );
+};
 
-
-            <h3>Collections Card</h3>
-        </div>
-    )
-}
-
-export default CollectionCard
+export default CollectionCard;
