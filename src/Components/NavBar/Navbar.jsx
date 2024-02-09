@@ -88,7 +88,7 @@ const Navbar = () => {
       </div>
 
       <div className="Search">
-        <IoSearchSharp color="white" />
+        <IoSearchSharp color="#210025" />
         <input type="text" placeholder="search"></input>
       </div>
     </div>

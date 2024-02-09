@@ -1,0 +1,28 @@
+.cardContainer {
+  color: rgb(254, 253, 255);
+  background: #220b3f;
+  height: 300px;
+  padding: 15px;
+  width: 35%;
+}
+
+.cardContainer .cardTop {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  height: 70%;
+  width: 97%;
+}
+
+.cardContainer .cardBottom {
+ display: flex;
+ justify-content: center;
+ align-items:center ;
+ flex-direction: column;
+  border-radius: 7px;
+  width: 97%;
+  height: 25%;
+  margin-top: 7px;
+  background-color: rgb(86, 48, 99) ;
+}

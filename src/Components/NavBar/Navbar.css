@@ -1,10 +1,9 @@
-
 .Navbar {
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: hsla(330, 36%, 53%, 1);
+  /* background: hsla(330, 36%, 53%, 1);
   background: linear-gradient(
     90deg,
     hsla(330, 36%, 53%, 1) 0%,
@@ -20,8 +19,9 @@
     90deg,
     hsla(330, 36%, 53%, 1) 0%,
     hsla(289, 68%, 19%, 1) 100%
-  );
+  ); */
 
+  background: linear-gradient(180deg, rgb(39, 3, 20) 0%, rgb(64, 17, 85) 90%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B15B86", endColorstr="#440F50", GradientType=1 );
 
   color: #fff;
@@ -40,7 +40,8 @@
   border-radius: 50%;
   background-color: rgb(14, 14, 26);
   transition: 0.5s;
-  box-shadow: 0px 0px 5px 3px rgb(248, 213, 16);
+  box-shadow: 0px 0px 10px 5px #ffd3f4;
+  /* rgb(216, 132, 198); */
 }
 
 .logo p {
@@ -50,11 +51,11 @@
   font-weight: 900;
   color: rgb(234, 234, 234);
   border-radius: 50%;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .logo:hover {
-  box-shadow: 0px 0px 11px 7px #f8ceefaa;
+  box-shadow: 0px 0px 10px 5px #f7b95daa;
 }
 
 ul {
@@ -86,8 +87,8 @@ ul .submenu li {
   padding: 15px;
 }
 
-.ul .submenu li a{
-    color: #fff;
+.ul .submenu li a {
+  color: #fff;
 }
 
 ul li:hover .submenu {
@@ -96,9 +97,8 @@ ul li:hover .submenu {
 }
 
 ul li:hover a {
-    color:rgb(244, 188, 255);
+  color: rgb(244, 188, 255);
 }
- 
 
 .submenu li a:hover {
   color: #e09303;
@@ -111,7 +111,7 @@ ul li:hover a {
   margin-left: 15px;
   gap: 13px;
   height: 14px;
-  background-color: #242424;
+  background-color: #f7e1f1;
   padding: 10px 20px;
   border-radius: 50px;
 }
@@ -120,10 +120,11 @@ ul li:hover a {
   background-color: transparent;
   border: 0;
   outline: 0;
-  color: #fff;
+  color: #210025;
   max-width: 200px;
+  font-weight: 700;
 }
 
 .Search input::placeholder {
-  color: #fff;
+  color: #210025;
 }

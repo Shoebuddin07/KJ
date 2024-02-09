@@ -1,46 +1,69 @@
 .Custom-btn {
-    background: black;
-    color: white;
-    font-weight: 400;
-  }
+  background: black;
+  color: white;
+  font-weight: 400;
+}
 
 .Gold-Exchange {
-    color: #fff;
-    width: 99%;
-    margin: 7px;
-    padding: 17px;
-    border-radius: 7px;
-  }
-
-.About-us{
-    display: block; 
-    width: 99%;
-    margin: 7px;
-    padding: 17px;
-    border-radius: 7px;
-    text-align: center;
-    background-color: rgb(18, 4, 36);
-    color: #fff;
+  color: #fff;
+  width: 99%;
+  margin: 7px;
+  padding: 17px;
+  border-radius: 7px;
 }
 
-.SignUp{
-    display: inline; 
-    width: 99%;
-    margin: 7px;
-    padding: 17px;
-    border-radius: 7px;
-    text-align: center;
-    background-color: rgb(18, 4, 36);
-    color: #fff;
+.About-us {
+  display: block;
+  width: 99%;
+  margin: 7px;
+  padding: 17px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: rgb(18, 4, 36);
+  color: #fff;
 }
 
-.SignUp .Custom-input{
-    font-size: 1.7rem;
-    border: none;
-    border-bottom: 3px solid #747bff;
-    outline: none;
-    border-radius: 3px;
-    background-color: transparent;
-    color: azure;
-    margin-right: 7px;
+.SignUp {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  margin: 7px;
+  padding: 17px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: rgb(18, 4, 36);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUp .Custom-input {
+  font-size: 1.3rem;
+  border: none;
+  /* border-bottom: 3px solid #747bff; */
+  outline: none;
+  border-radius: 3px;
+  background-color: transparent;
+  color: azure;
+  margin-right: 7px;
+  margin-left: 14px;
+}
+.SignInBox {
+  border: 2px solid #747bff;
+  width: "fit-content";
+  border-radius: 7px;
+}
+.SignUp .Custom-btn:hover {
+  transition: 0.7s;
+  transform: scale(0.7);
+}
+.bestOfKJ {
+  width: 90%;
+  margin: auto;
+  margin: 50px;
+  /* background: #220b3f; */
+  color: aliceblue;
+}
+.kjCards {
+  width: 100%;
 }

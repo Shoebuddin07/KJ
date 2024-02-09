@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Ringsxsd",
+    "img": "https://cdn.caratlane.com/media/catalog/product/J/E/JE07070-1YP600_1_lar.jpg",
+    "price": "$9999"
+  },
+  {
+    "id": 2,
+    "name": "Rings2",
+    "img": "https://cdn.caratlane.com/media/catalog/product/U/T/UT00867-1Y00P0_1_lar.jpg",
+    "price": "$9999"
+  },
+  {
+    "id": 3,
+    "name": "Rings3",
+    "img": "https://cdn.caratlane.com/media/catalog/product/J/R/JR04654-RGP900_1_lar.jpg",
+    "price": "$9999"
+  }
+]

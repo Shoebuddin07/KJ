@@ -1,8 +1,9 @@
 header {
     
-    color:rgb(211, 187, 216);
-    background: linear-gradient(180deg, rgb(68, 17, 68) 11%,
-    rgb(68, 17, 68) 10%);
+    color:rgb(246, 213, 252);
+    /* background: linear-gradient(180deg, rgb(68, 17, 68) 11%,
+    rgb(68, 17, 68) 10%); */
+    background-color:rgb(39, 3, 20) ;
 }
 marquee{
     text-align: center;

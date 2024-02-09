@@ -1,7 +1,9 @@
+import KJCards from "../../Components/Cards/BestOfKJ/KJCards";
 import CollectionCard from "../../Components/Cards/CollectionsCard/CollectionsCard";
 import ExploreCard from "../../Components/Cards/ExploreCard/ExploreCard";
 import GiftCard from "../../Components/Cards/GiftCard/GiftCard";
 import OfferCard from "../../Components/Cards/OfferCard/OfferCard";
+import CustomSlider from "../../Components/Slider/CustomSlider";
 import videobg from "../../assets/bgvideo.webm";
 import "./Cards.css";
 
@@ -223,17 +225,28 @@ const Cards = () => {
         </p>
         <button className="Custom-btn">Know more</button>
       </div>
-       <div className="SignUp">
+      <div className="SignUp">
         <h3
           style={{
             fontSize: "3rem",
             fontWeight: "400",
           }}
         >
-         SignUp To KJ
+          SignUp To KJ
         </h3>
-         <input className="Custom-input" type="text" ></input>
-        <button className="Custom-btn">SignUp</button>
+        <div className="SignInBox">
+          <input
+            className="Custom-input"
+            type="text"
+            placeholder="happyuser@gmail.com"
+          ></input>
+          <button className="Custom-btn">SignUp</button>
+        </div>
+      </div>
+      <div className="bestOfKJ">
+        <div className="kjCards">
+        <KJCards/>
+        </div>
       </div>
     </div>
   );
